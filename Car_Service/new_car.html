@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="new_car.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+    font-family:roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+#header {
+    color: #fff;
+    background: #19B5FE;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu li {
+    display: inline-block;
+
+}
+
+#menu li a {
+    color: #fff;
+
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover {
+    background: #0077C0;
+}
+
+#banner {
+    background-image: url(https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-81d9ad60--servicepromo.jpg?v=1611886053);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 5%;
+}
+
+.banner-title h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10vh;
+    margin: auto;
+    padding-top: 25vh;
+
+}
+
+#working {
+    background-image: url(https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-4835ecdd--JSN-Car-Dealer-Service-2.jpg?v=1618462487);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+
+
+}
+
+
+
+.cennt {
+   
+    padding: 10% 1%;
+
+    
+}
+.cenn {
+    color:rgb(255, 255, 255);
+    padding: 7%;
+    background-color: black;
+    opacity: 85%;
+    
+   
+    
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+#Schedule{
+    background: rgba(186, 228, 214, 0.479);
+}
+.cust{
+    background-color: #fff;
+    padding: 2% ;
+    margin-left: 2%;
+    font-size: small;
+   
+  
+}
+
+.line {
+    border: none;
+   
+    height: 2px;
+    color:#F39C12;
+    background-color:#ff9d00;
+}
+.fa-solid{
+    color: #d9b53c;
+    font-size: 40px;
+    
+}
+h3{
+    font-size: large;
+}
+table{
+    width: 100%;
+    height: 80%;
+}
+td{
+    text-align: end;
+    font-size: small;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.658);
+    width: 50%;
+    
+    
+    
+    
+}
+th{
+    font-size: small;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.658);
+}
+p{
+    font-size: small;
+}
+
+        </style>
+        
+</head>
+
+<body>
+    <div id="header">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 id="logo">All In One Car Service</h1>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-end">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="comtainer">
+            <div class="row ">
+                <div class="col-lg-12">
+                    <div class="banner-title">
+                        <h2 class="title">SERVICE</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service_center">
+        <div class="container mb-5">
+        <div class="section ">
+            
+                <div class="row ">
+
+                    <div class="col-md-6 cennt">
+                        <h2 class="section-head">SERVICE CENTER</h2>
+                        <p>Are you ready to give your car the service it is asking for? Schedule car maintenance or
+                            repair
+                            right
+                            here. Our top-notch service staff can get your car or truck in and out quickly. We know
+                            there
+                            isn’t
+                            much more frustrating than being without your vehicle while it gets repaired. That’s why
+                            we
+                            have
+                            a
+                            staff that excels in providing top-notch maintenance and repair – and is able to do it
+                            quickly.
+                        </p>
+
+
+                    </div>
+                    <div class="col-md-6 float-md-end p-2">
+                        <img src="https://cdn.shopify.com/s/files/1/2170/1117/t/10/assets/pf-4c4835ec--JSN-Car-Dealer-Service-1.jpg?v=1618462426" alt="car service" class="responsive">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="working">
+
+            <div class="container-fluid mt-5">
+                <div class="row cenn">
+                    <div class="col-md-1"><i class="fa-solid fa-star-of-life float-md-end"></i>
+
+                    </div>
+                    <div class="col-md-3 mb-5">
+
+                        <h3>OIL CHANGES</h3>
+                        <p>We helps you select the perfect oil for your car. Whether your vehicle needs
+                            conventional,
+                            high
+                            mileage, synthetic blend or full synthetic oil.</p>
+                    </div>
+                    <div class="col-md-1"><i class="fa-solid fa-crosshairs float-md-end"></i>
+                    </div>
+
+                    <div class="col-md-3 mb-5">
+                        <h3>AIR CONDITIONING</h3>
+                        <p>We offer both an Air con recharge and Anti-bacterial clean services to ensure your
+                            vehicles
+                            air
+                            conditioning is running as efficiently as possible.</p>
+                    </div>
+                    <div class="col-md-1"><i class="fa-solid fa-car float-md-end"></i>
+
+                    </div>
+                    <div class="col-md-3 mb-5">
+                        <h3>AUTO ELECTRIC</h3>
+                        <p>It may sound counter-intuitive, but electric car service and maintenance is lot simpler
+                            than
+                            our
+                            conventional petrol or diesel cars.</p>
+
+                    </div>
+                    <div class="col-md-1"><i class="fa-solid fa-server float-md-end"></i></div>
+                    <div class="col-md-3 mb-5">
+                        <h3>BRAKE SERVICE</h3>
+                        <p>Brake Service. Disc Brakes. Drum Brakes. Parking Brake. Hydraulic System. Master
+                            cylinder.
+                            Brake
+                            fluid and hoses.</p>
+
+                    </div>
+                    <div class="col-md-1"><i class="fa-solid fa-train float-md-end"></i></div>
+                    <div class="col-md-3 mb-5">
+                        <h3>TRANSMISSION</h3>
+                        <p>A transmission service is and important part of your routine maintenance, just like
+                            replacing
+                            your engine oil.</p>
+
+                    </div>
+                    <div class="col-md-1"><i class="fa-solid fa-sun float-md-end"></i></div>
+                    <div class="col-md-3 mb-5">
+                        <h3>TIRE & WHEEL SERVICE</h3>
+                        <p>Tire and wheel are like arms and leg. It need to be take care frequently. And with years
+                            of
+                            experience, we can offer best tire and wheel service</p>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Schedule">
+        <div class="section  ">
+            <div class="container-fluid p-5">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <h1 class="container text-center mt-5">SCHEDULE SERVICE</h1><br>
+                    </div>
+<div class="col-1"></div>
+                    <div class="col-md-3 mb-5 p-3 cust ">
+                        <h5><b> CONTACT INFORMATION</b></h5>
+                        <hr class="line">
+                        <p style="color:gray ;">
+                            Do not hesitate to contact or come to us if you have any problem with your car. You can find
+                            us here:
+                        </p>
+                        <hr>
+                        <p> 795 Fake Ave, Door 6 Wonderland,
+                            CA 94107, Australia
+                        </p>
+                        <hr>
+                        <p>
+                            +123 456789 Central Office
+                            +123 888888 Fax
+                        </p>
+                        <hr>
+                        <p><i>
+                                support@yourcompany.com
+                                info@cardealer.com
+                            </i>
+                        </p>
+
+                    </div>
+
+
+                    <div class="col-md-3 mb-5 p-3 mt-0 cust ">
+                        <h5><b> OPENING HOURS</b></h5>
+                        <hr class="line">
+                        <table>
+                            <tr>
+                                <th>
+                                    Monday
+                                </th>
+                                <td>
+                                    08:00-19:00
+                                </td>
+                                
+                            </tr>
+                            <tr>
+                                <th>
+                                    Tueday
+                                </th>
+                                <td style="color:#d9b53c">
+                                    Demonstration drive only
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Wedday
+                                </th>
+                                <td>
+                                    08:00-19:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Thursday
+                                </th>
+                                <td>
+                                    08:00-19:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Friday
+                                </th>
+                                <td>
+                                    08:00-19:00
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Saturday
+                                </th>
+                                <td>
+                                    08:00-19:00
+                                </td>
+                            </tr>
+                            
+                        </table>
+
+
+                    </div>
+                    <div class="col-md-3 mb-5 p-3 cust">
+                        <h5><b> SHORTLY ABOUT US</b></h5>
+                        <hr class="line">
+                        <p>
+                            JoomlaShine has tirelessly served Joomla community for over 10 years. Right from the
+                            beginning, we promise to bring true value to our customers. 550.000+ customer plus over 50
+                            quality templates and extensions. Our solutions have been supplied for a wide range of
+                            customers who take part in many industries and different sectors, for both individuals and
+                            organizations with a constant improvement in the quality of products
+                        </p>
+                        <hr>
+                        <p> <i class="bi bi-facebook"></i> <i class="bi bi-twitter"> </i><i class="bi bi-google"></i> <i class="bi bi-instagram"></i>
+                        </p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
